@@ -13,9 +13,10 @@ Draggable windows, a live dock, and a working terminal — built as a template y
 
 ## Demo
 
-**Live demo:** [your-deployment-url.vercel.app](https://your-deployment-url.vercel.app) _(replace this)_
+**Live demo:** https://arvind-s-iyer-portfolio.vercel.app/
 
-_Drop a screenshot or GIF here (`public/preview.png`) to give visitors a first impression._
+<img width="1630" height="818" alt="image" src="https://github.com/user-attachments/assets/af9a9306-5eff-4b2e-9fdd-ccc875586df0" />
+
 
 ---
 
