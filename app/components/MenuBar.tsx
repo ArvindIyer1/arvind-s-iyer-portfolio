@@ -5,7 +5,7 @@ import { useState, useEffect } from "react"
 export default function MenuBar({ focusedApp }: { focusedApp: string | null }) {
   const [timeStr, setTimeStr] = useState("")
   const [dateStr, setDateStr] = useState("")
-  const [visits, setVisits] = useState<number | null>(null)
+  // const [visits, setVisits] = useState<number | null>(null)
 
   useEffect(() => {
     const update = () => {
@@ -18,12 +18,12 @@ export default function MenuBar({ focusedApp }: { focusedApp: string | null }) {
     return () => clearInterval(timer)
   }, [])
 
-  useEffect(() => {
-    fetch("/api/views")
-      .then((r) => r.json())
-      .then((d) => { if (d.count !== null) setVisits(d.count) })
-      .catch(() => {})
-  }, [])
+  // useEffect(() => {
+  //   fetch("/api/views")
+  //     .then((r) => r.json())
+  //     .then((d) => { if (d.count !== null) setVisits(d.count) })
+  //     .catch(() => {})
+  // }, [])
 
   return (
     <div
@@ -41,11 +41,11 @@ export default function MenuBar({ focusedApp }: { focusedApp: string | null }) {
       </div>
 
       <div className="flex items-center gap-4 font-mono text-[11px]">
-        {visits !== null && (
+        {/* {visits !== null && (
           <span style={{ color: "rgba(255,255,255,0.2)" }}>
             ↑ {visits.toLocaleString()}
           </span>
-        )}
+        )} */}
         <span style={{ color: "rgba(255,255,255,0.35)" }}>{dateStr}</span>
         <span style={{ color: "rgba(255,255,255,0.55)" }}>{timeStr}</span>
       </div>
