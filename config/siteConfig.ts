@@ -89,7 +89,7 @@ export const siteConfig: SiteConfig = {
     role: "Computer Engineering Student",
     shortRole: "Computer Engineering Student",
     tagline:
-      "Computer Engineering student building real-time systems — from limit order books to collaborative whiteboards — one commit at a time.",
+      "Building AI systems, intelligent agents, and full stack applications..",
     location: "Pune, Maharashtra, India",
     age: 20,
     avatar: "/avatar.svg",

@@ -28,16 +28,28 @@ export interface ProjectsConfig {
 export const projects: ProjectsConfig = {
   personal: [
     {
+      title: "Enclave AI Workbench",
+      description: "Air-gapped AI workbench for confidential documents, featuring multi-agent workflows, document intelligence, access controls, and human-in-the-loop approvals.",
+      tech: ["Next.js", "TypeScript", "Fastify"],
+      link: "https://github.com/ArvindIyer1/workbench-ui",
+    },
+    {
+      title: "Relay — Content Transformation Engine",
+      description: "Document processing pipeline for transforming unstructured content into usable data through image ingestion, OCR, and automated content extraction.",
+      tech: ["Python", "OCR", "AI"],
+      link: "https://github.com/ArvindIyer1/Content-Transformation-Engine",
+    },
+    {
       title: "Polymarket-Style Prediction Market",
       description: "Limit order book matching bids and asks by price-time priority, binary-outcome market mechanics, and real-time updates.",
       tech: ["TypeScript", "Node.js", "WebSockets"],
-      link: "https://github.com/ArvindIyer1",
+      link: "https://github.com/ArvindIyer1/new-pred-mkts",
     },
     {
       title: "Draw-App (Collaborative Whiteboard)",
       description: "Excalidraw-style real-time canvas sync in a pnpm/Turborepo monorepo.",
       tech: ["Next.js", "WebSockets", "Prisma", "JWT", "Zod"],
-      link: "https://github.com/ArvindIyer1",
+      link: "https://github.com/ArvindIyer1/drawapp",
     },
     {
       title: "Real-Time Chat Application",
@@ -70,11 +82,11 @@ export interface ResumeProjectItem {
 
 export const resumeProjects: ResumeProjectItem[] = [
   {
-    name: "Polymarket-Style Prediction Market",
-    desc: "Limit order book matching with price-time priority, binary-outcome market mechanics, and real-time updates using TypeScript, Node.js, and WebSockets.",
+    name: "Enclave AI — Air-Gapped AI Workbench",
+    desc: "Self-hosted AI workbench for confidential environments, featuring local LLMs, multi-agent workflows, document intelligence, access controls, and human-in-the-loop approvals using Next.js, TypeScript, and Fastify.",
   },
   {
-    name: "Draw-App (Collaborative Whiteboard)",
-    desc: "Excalidraw-style real-time canvas sync in a Next.js, Prisma, JWT, Zod, and WebSockets pnpm/Turborepo monorepo.",
+    name: "Relay — AI Content Transformation Engine",
+    desc: "Multi-agent platform that transforms a single source into presentations, summaries, advisories, and social content, with audience-aware workflows, multilingual generation, and automated quality validation using Next.js, TypeScript, and LangGraph.",
   },
 ]
