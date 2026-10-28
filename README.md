@@ -13,7 +13,7 @@ Draggable windows, a live dock, and a working terminal — built as a template y
 
 ## Demo
 
-**Live demo:** https://arvind-s-iyer-portfolio.vercel.app/
+**Live demo:** https://www.arvindsiyer.tech/
 
 <img width="1630" height="818" alt="image" src="https://github.com/user-attachments/assets/af9a9306-5eff-4b2e-9fdd-ccc875586df0" />
 
